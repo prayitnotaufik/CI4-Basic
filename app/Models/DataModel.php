@@ -7,7 +7,8 @@ use CodeIgniter\Model;
 class DataModel extends Model
 {
     protected $table = 'mahasiswa';
-    protected $allowedFileds = ['nim', 'nama', 'jurusan', 'prodi'];
+    protected $allowedFields = ['nim', 'nama', 'jurusan', 'prodi'];
+    protected $useTimestamps = true;
 
     public function getMahasiswa($id = false)
     {

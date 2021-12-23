@@ -3,6 +3,7 @@
 <?= $this->section('content') ?>
 <div class="container mt-4">
     <h1>Data mahasiswa</h1>
+    <a href="/data/create" class="btn btn-primary">Add Data</a>
     <table class="table">
         <thead>
             <tr>
